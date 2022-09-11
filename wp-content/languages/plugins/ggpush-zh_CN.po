@@ -1,0 +1,316 @@
+# Translation of Plugins - 果果推送 - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - 果果推送 - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-04-09 03:25:48+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-rc.4\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - 果果推送 - Stable (latest release)\n"
+
+#. Plugin Name of the plugin
+#: common-ggpush.php:586 common-ggpush.php:587
+msgid "Ggpush"
+msgstr "果果推送"
+
+#. Author of the plugin
+msgid "Ggdoc"
+msgstr "果果文档"
+
+#. Description of the plugin
+msgid "It supports Baidu search engine, Microsoft Bing search engine and Api submission link function in IndexNow mode, allowing search engines to discover new content links on your website faster."
+msgstr "支持百度搜索引擎、微软Bing搜索引擎以及IndexNow方式的Api提交链接功能，让搜索引擎更快的发现您网站上的新内容链接。"
+
+#: common-ggpush.php:596 common-ggpush.php:597 views/record-detail.php:25
+#: views/record-index.php:9
+msgid "Push record"
+msgstr "推送记录"
+
+#: common-ggpush.php:605 common-ggpush.php:606 common-ggpush.php:708
+msgid "Settings"
+msgstr "设置"
+
+#: common-ggpush.php:177 common-ggpush.php:750 views/record-index.php:141
+msgid "Baidu search engine general collection"
+msgstr "百度搜索引擎普通收录"
+
+#: common-ggpush.php:276 common-ggpush.php:761 views/record-index.php:145
+msgid "Baidu search engine fast collection"
+msgstr "百度搜索引擎快速收录"
+
+#: common-ggpush.php:359 common-ggpush.php:772 views/record-index.php:149
+msgid "Bing search engine"
+msgstr "必应搜索引擎"
+
+#: common-ggpush.php:555
+msgid "Search engine"
+msgstr "搜索引擎"
+
+#: common-ggpush.php:186
+msgid "Access token"
+msgstr "准入密钥"
+
+#: common-ggpush.php:368
+msgid "API key"
+msgstr "API密钥"
+
+#: common-ggpush.php:465
+msgid "Key"
+msgstr "密钥"
+
+#: common-ggpush.php:457 common-ggpush.php:564 common-ggpush.php:783
+#: views/record-index.php:153
+msgid "IndexNow"
+msgstr "IndexNow"
+
+#: common-ggpush.php:568
+msgid "Microsoft Bing"
+msgstr "微软必应"
+
+#: common-ggpush.php:572 common-ggpush.php:1170
+msgid "Yandex"
+msgstr "Yandex"
+
+#: common-ggpush.php:473
+msgid "The key is a 32-bit random string. After filling in the key and saving it, a key text file with the same name will be generated in the root directory of your website"
+msgstr "密钥为32位随机字符串。填写密钥保存后，将会在您的网站根目录下生成同名的密钥文本文件"
+
+#: common-ggpush.php:194
+msgid "Please fill in the value of the token field in the API call address"
+msgstr "请填写接口调用地址中的token字段值"
+
+#: common-ggpush.php:169
+msgid "Push Links via WP-Cron"
+msgstr "通过WP-Cron推送链接"
+
+#: common-ggpush.php:62
+msgid "You need to monitor %s regularly to push links"
+msgstr "您需要定时监控%s来推送链接"
+
+#: common-ggpush.php:201 common-ggpush.php:284 common-ggpush.php:382
+#: common-ggpush.php:480
+msgid "Push interval"
+msgstr "推送间隔"
+
+#: common-ggpush.php:209 common-ggpush.php:292 common-ggpush.php:390
+#: common-ggpush.php:488
+msgid "How many minutes to push once.If it is set to 0, it will not be pushed"
+msgstr "多少分钟推送一次，设置为0则不推送"
+
+#: common-ggpush.php:216 common-ggpush.php:299 common-ggpush.php:397
+#: common-ggpush.php:495
+msgid "Number of links per push"
+msgstr "每次推送链接数量"
+
+#: common-ggpush.php:230 common-ggpush.php:313 common-ggpush.php:411
+#: common-ggpush.php:509
+msgid "Push mode"
+msgstr "推送方式"
+
+#: common-ggpush.php:243 common-ggpush.php:326 common-ggpush.php:424
+#: common-ggpush.php:522
+msgid "Random"
+msgstr "随机"
+
+#: common-ggpush.php:239 common-ggpush.php:322 common-ggpush.php:420
+#: common-ggpush.php:518
+msgid "Latest"
+msgstr "最新"
+
+#: common-ggpush.php:253 common-ggpush.php:336 common-ggpush.php:434
+#: common-ggpush.php:532
+msgid "Push after the article is published"
+msgstr "发布文章后推送"
+
+#: common-ggpush.php:262 common-ggpush.php:345 common-ggpush.php:443
+#: common-ggpush.php:541
+msgid "Yes"
+msgstr "是"
+
+#: common-ggpush.php:266 common-ggpush.php:349 common-ggpush.php:447
+#: common-ggpush.php:545
+msgid "No"
+msgstr "否"
+
+#: common-ggpush.php:651
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: common-ggpush.php:633
+msgid "Settings saved."
+msgstr "设置已保存。"
+
+#: views/record-index.php:104
+msgid "items"
+msgstr "个项目"
+
+#: views/record-index.php:116
+msgid "%1$s of %2$s"
+msgstr "第%1$s页，共%2$s页"
+
+#: views/record-index.php:107
+msgid "Front Page"
+msgstr "首页"
+
+#: views/record-index.php:111
+msgid "Previous Page"
+msgstr "上一页"
+
+#: views/record-index.php:114
+msgid "Current Page"
+msgstr "当前页"
+
+#: views/record-index.php:120
+msgid "Next"
+msgstr "下一页"
+
+#: views/record-index.php:125
+msgid "Last page"
+msgstr "尾页"
+
+#: views/record-index.php:17
+msgid "Select bulk action"
+msgstr "选择批量操作"
+
+#: views/record-clear.php:9 views/record-index.php:19
+msgid "Clear push record"
+msgstr "清空推送记录"
+
+#: views/record-index.php:20
+msgid "1 day ago"
+msgstr "1天之前"
+
+#: views/record-index.php:21
+msgid "3 days ago"
+msgstr "3天之前"
+
+#: views/record-index.php:22
+msgid "30 days ago"
+msgstr "30天之前"
+
+#: views/record-index.php:23
+msgid "All"
+msgstr "全部"
+
+#: views/record-index.php:25
+msgid "Apply"
+msgstr "应用"
+
+#: views/record-detail.php:35 views/record-index.php:33
+msgid "Push platform"
+msgstr "推送平台"
+
+#: views/record-detail.php:39 views/record-index.php:34
+msgid "Push method"
+msgstr "推送方式"
+
+#: views/record-detail.php:43 views/record-index.php:35
+msgid "Number of push links"
+msgstr "推送链接数量"
+
+#: views/record-detail.php:47 views/record-index.php:36
+msgid "Push status"
+msgstr "推送状态"
+
+#: views/record-detail.php:51 views/record-index.php:37
+msgid "Push result status code"
+msgstr "推送结果状态码"
+
+#: views/record-detail.php:55 views/record-index.php:38
+msgid "Push time"
+msgstr "推送时间"
+
+#: views/record-index.php:39
+msgid "Actions"
+msgstr "操作"
+
+#: views/record-index.php:88
+msgid "Details"
+msgstr "详情"
+
+#: common-ggpush.php:1154
+msgid "Baidu"
+msgstr "百度"
+
+#: common-ggpush.php:1156
+msgid "360"
+msgstr "360"
+
+#: common-ggpush.php:1158
+msgid "Sogou"
+msgstr "搜狗"
+
+#: common-ggpush.php:1160
+msgid "Toutiao"
+msgstr "头条"
+
+#: common-ggpush.php:1162
+msgid "Sm"
+msgstr "神马"
+
+#: common-ggpush.php:1164
+msgid "Bing"
+msgstr "Bing"
+
+#: common-ggpush.php:1166
+msgid "Google"
+msgstr "谷歌"
+
+#: common-ggpush.php:1187
+msgid "General collection"
+msgstr "普通收录"
+
+#: common-ggpush.php:1189
+msgid "Fast collection"
+msgstr "快速收录"
+
+#: common-ggpush.php:1191
+msgid "Js submit"
+msgstr "Js提交"
+
+#: common-ggpush.php:1193
+msgid "Api submit"
+msgstr "Api提交"
+
+#: common-ggpush.php:1212 views/record-clear.php:11
+msgid "Success"
+msgstr "成功"
+
+#: common-ggpush.php:1214
+msgid "Failed"
+msgstr "失败"
+
+#: common-ggpush.php:1216
+msgid "Unknown"
+msgstr "未知"
+
+#: views/record-clear.php:13 views/record-detail.php:104
+msgid "Go back"
+msgstr "返回"
+
+#: views/record-detail.php:21 views/record-index.php:94
+msgid "No data"
+msgstr "暂无数据"
+
+#: views/record-detail.php:63
+msgid "Push links"
+msgstr "推送链接"
+
+#: views/record-detail.php:75
+msgid "Push response data"
+msgstr "推送响应数据"
+
+#: views/record-detail.php:90
+msgid "Reason for failure"
+msgstr "失败原因"
+
+#: views/record-index.php:160
+msgid "%s scheduled task is not running"
+msgstr "%s定时任务未运行"
+
+#: views/record-index.php:162
+msgid "Next running time of %s scheduled task:"
+msgstr "%s定时任务下次运行时间："
